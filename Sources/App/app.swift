@@ -11,11 +11,7 @@ public func app(_ env: Environment) throws -> Application {
     let app = try Application(config: config, environment: env, services: services)
     try boot(app)
 
-    var variavel1 = "var1"
-    var variavel2 = "var2"
-    var variavel3 = "var3"
-    var variavel4 = "var4"
-    var variavel5 = "var5"
+    var variavel1 = "var1" // commit 27oct2019  14:30
     // fim
     return app
 }
