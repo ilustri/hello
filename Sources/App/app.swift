@@ -11,6 +11,10 @@ public func app(_ env: Environment) throws -> Application {
     try boot(app)
 
     var variavel1 = "var1"
+    var variavel2 = "var2"
+    var variavel3 = "var3"
+    var variavel4 = "var4"
+    var variavel5 = "var5"
     // fim
     return app
 }
