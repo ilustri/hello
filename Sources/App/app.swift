@@ -10,5 +10,9 @@ public func app(_ env: Environment) throws -> Application {
     try configure(&config, &env, &services)
     let app = try Application(config: config, environment: env, services: services)
     try boot(app)
+
+    var variavel1 = "var1" // commit 27oct2019  14:30
+    var variavel2 = "18:47 28oct2019" 
+    // fim
     return app
 }
