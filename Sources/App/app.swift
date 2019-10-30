@@ -11,11 +11,10 @@ public func app(_ env: Environment) throws -> Application {
     let app = try Application(config: config, environment: env, services: services)
     try boot(app)
 
-    var variavel1 = "var1" // commit 27oct2019  14:30
-    var variavel2 = "18:47 28oct2019" 
     var Carol4      = "2019-10-30 07:52"
+    var Carol5      = "2019-10-30 07:59"
 
-    var Carol5      = "2019-10-30 07:59" // adicionando
+    var Carol6      = "Carol 2019-10-30 08:09"
     // fim
     return app
 }
